@@ -1,0 +1,10 @@
+Arrow Functions (Funciones Flecha): Las arrow functions son una forma más concisa de 
+escribir funciones en JavaScript. Se introdujeron en ECMAScript 6 
+(también conocido como ES6) y proporcionan una sintaxis más compacta en comparación 
+con las funciones tradicionales.
+
+Callbacks: En JavaScript, los callbacks son funciones que se pasan como argumentos a 
+otras funciones y se ejecutan después de que se complete una operación asincrónica o 
+algún otro tipo de tarea. Los callbacks son esenciales para la programación asíncrona 
+en JavaScript, donde las operaciones pueden llevar tiempo y no bloquean la ejecución del 
+código.
