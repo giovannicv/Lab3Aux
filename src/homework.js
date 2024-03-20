@@ -13,6 +13,14 @@
   /* First excercise */
 
   /* Second excercise */
+let numbers = [1, 2, 3, 4, 5];
+
+let multipliedNumbers = numbers.map(function(number) {
+  return number * 5;
+});
+
+console.log(multipliedNumbers); // Resultado esperado: [5, 10, 15, 20, 25]
+
 
   let names = ["Jhosep", "Daniel", "Rodrigo", "Veronica"];
 
@@ -23,6 +31,12 @@
   /* Second excercise */
 
   /* Thrid excercise */
+let names = ["Jhosep", "Daniel", "Rodrigo", "Veronica"];
+
+let sortedNames = names.slice().sort();
+
+console.log(sortedNames); // Resultado esperado: ["Daniel", "Jhosep", "Rodrigo", "Veronica"]
+
 
   const data = ['a', 'b', 'z', 'r', 'a', 'c', 'r', 'a'];
 
@@ -33,7 +47,14 @@
 
   /* Fourth excercise */
 
-  const largeWord = "abcdabcdABCD";
+const data = ['a', 'b', 'z', 'r', 'a', 'c', 'r', 'a'];
+
+const uniqueLetters = [...new Set(data)];
+
+console.log(uniqueLetters); // Resultado esperado: ['a', 'b', 'z', 'r', 'c']
+
+
+const largeWord = "abcdabcdABCD";
 
   /* Dado un string mostrar cuantas veces se repite cada letra*/
   /* Resultado: 
@@ -50,5 +71,13 @@
   */
 
   /* Fourth excercise */
+  const largeWord = "abcdabcdABCD";
 
+  const letterCount = largeWord.split('').reduce((count, letter) => {
+    count[letter] = (count[letter] || 0) + 1;
+    return count;
+  }, {});
+  
+  console.log(letterCount);
+  
 })();
